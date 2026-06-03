@@ -20,7 +20,7 @@ from pyspark.sql.types import (
 # ─────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────
-KAFKA_BROKER        = "kafka:29092"          # internal Docker network
+KAFKA_BROKER        = "localhost:9092"          # internal Docker network
 INPUT_TOPIC         = "transactions"
 VALID_TOPIC         = "transactions_valid"
 DLQ_TOPIC           = "transactions_dlq"
